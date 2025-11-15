@@ -1,0 +1,2134 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Notion Cheat Sheet - Guía Completa</title>
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='0.9em' font-size='90'>🗂️</text></svg>">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="header-content">
+            <div class="logo">
+                <span class="logo-icon">🗂️</span>
+                <h1>Notion Cheat Sheet</h1>
+            </div>
+            <div class="header-actions">
+                <div class="search-container">
+                    <input type="text" id="searchInput" class="search-input" placeholder="Buscar atajos...">
+                    <span class="search-icon">🔍</span>
+                </div>
+                <button class="mobile-menu-btn" id="mobileMenuBtn" aria-label="Toggle menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <div class="main-container">
+        <!-- Sidebar -->
+        <aside class="sidebar" id="sidebar">
+            <nav class="nav">
+                <a href="#" class="nav-item active" data-section="shortcuts" data-color="#FF6B6B">
+                    <span class="nav-icon">⚡</span>
+                    <span class="nav-text">Atajos de Teclado</span>
+                </a>
+                <a href="#" class="nav-item" data-section="slash" data-color="#4ECDC4">
+                    <span class="nav-icon">🔧</span>
+                    <span class="nav-text">Comandos Slash</span>
+                </a>
+                <a href="#" class="nav-item" data-section="markdown" data-color="#FFE66D">
+                    <span class="nav-icon">📝</span>
+                    <span class="nav-text">Markdown Rápido</span>
+                </a>
+                <a href="#" class="nav-item" data-section="properties" data-color="#95E1D3">
+                    <span class="nav-icon">🗂️</span>
+                    <span class="nav-text">Propiedades DB</span>
+                </a>
+                <a href="#" class="nav-item" data-section="format" data-color="#F38181">
+                    <span class="nav-icon">🎨</span>
+                    <span class="nav-text">Formato Texto</span>
+                </a>
+                <a href="#" class="nav-item" data-section="blocks" data-color="#AA96DA">
+                    <span class="nav-icon">🏗️</span>
+                    <span class="nav-text">Bloques</span>
+                </a>
+                <a href="#" class="nav-item" data-section="tips" data-color="#FCBAD3">
+                    <span class="nav-icon">💡</span>
+                    <span class="nav-text">Tips &amp; Trucos</span>
+                </a>
+                <a href="#" class="nav-item" data-section="workflows" data-color="#A8E6CF">
+                    <span class="nav-icon">🚀</span>
+                    <span class="nav-text">Workflows</span>
+                </a>
+            </nav>
+        </aside>
+
+        <!-- Main Content -->
+        <main class="content" id="content">
+            <!-- Section 1: Atajos de Teclado -->
+            <section class="section active" id="shortcuts">
+                <h2 class="section-title">⚡ Atajos de Teclado</h2>
+                <p class="section-intro">Domina Notion con estos atajos esenciales para navegar y editar más rápido.</p>
+                
+                <div class="card" style="--card-color: #FF6B6B;">
+                    <h3>🧭 Navegación</h3>
+                    <div class="shortcuts-grid">
+                        <div class="shortcut-item">
+                            <div class="shortcut-keys">
+                                <kbd>Ctrl</kbd> + <kbd>P</kbd>
+                            </div>
+                            <div class="shortcut-desc">Búsqueda rápida de páginas</div>
+                            <button class="copy-btn" data-copy="Ctrl+P">Copiar</button>
+                        </div>
+                        <div class="shortcut-item">
+                            <div class="shortcut-keys">
+                                <kbd>Ctrl</kbd> + <kbd>[</kbd>
+                            </div>
+                            <div class="shortcut-desc">Ir atrás</div>
+                            <button class="copy-btn" data-copy="Ctrl+[">Copiar</button>
+                        </div>
+                        <div class="shortcut-item">
+                            <div class="shortcut-keys">
+                                <kbd>Ctrl</kbd> + <kbd>]</kbd>
+                            </div>
+                            <div class="shortcut-desc">Ir adelante</div>
+                            <button class="copy-btn" data-copy="Ctrl+]">Copiar</button>
+                        </div>
+                        <div class="shortcut-item">
+                            <div class="shortcut-keys">
+                                <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>U</kbd>
+                            </div>
+                            <div class="shortcut-desc">Subir un nivel</div>
+                            <button class="copy-btn" data-copy="Ctrl+Shift+U">Copiar</button>
+                        </div>
+                        <div class="shortcut-item">
+                            <div class="shortcut-keys">
+                                <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>L</kbd>
+                            </div>
+                            <div class="shortcut-desc">Modo oscuro</div>
+                            <button class="copy-btn" data-copy="Ctrl+Shift+L">Copiar</button>
+                        </div>
+                        <div class="shortcut-item">
+                            <div class="shortcut-keys">
+                                <kbd>Ctrl</kbd> + <kbd>\</kbd>
+                            </div>
+                            <div class="shortcut-desc">Mostrar/ocultar sidebar</div>
+                            <button class="copy-btn" data-copy="Ctrl+\">Copiar</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card" style="--card-color: #FF8E8E;">
+                    <h3>✏️ Edición de Texto</h3>
+                    <div class="shortcuts-grid">
+                        <div class="shortcut-item">
+                            <div class="shortcut-keys">
+                                <kbd>Ctrl</kbd> + <kbd>B</kbd>
+                            </div>
+                            <div class="shortcut-desc">Negrita</div>
+                            <button class="copy-btn" data-copy="Ctrl+B">Copiar</button>
+                        </div>
+                        <div class="shortcut-item">
+                            <div class="shortcut-keys">
+                                <kbd>Ctrl</kbd> + <kbd>I</kbd>
+                            </div>
+                            <div class="shortcut-desc">Cursiva</div>
+                            <button class="copy-btn" data-copy="Ctrl+I">Copiar</button>
+                        </div>
+                        <div class="shortcut-item">
+                            <div class="shortcut-keys">
+                                <kbd>Ctrl</kbd> + <kbd>U</kbd>
+                            </div>
+                            <div class="shortcut-desc">Subrayado</div>
+                            <button class="copy-btn" data-copy="Ctrl+U">Copiar</button>
+                        </div>
+                        <div class="shortcut-item">
+                            <div class="shortcut-keys">
+                                <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>S</kbd>
+                            </div>
+                            <div class="shortcut-desc">Tachado</div>
+                            <button class="copy-btn" data-copy="Ctrl+Shift+S">Copiar</button>
+                        </div>
+                        <div class="shortcut-item">
+                            <div class="shortcut-keys">
+                                <kbd>Ctrl</kbd> + <kbd>K</kbd>
+                            </div>
+                            <div class="shortcut-desc">Crear enlace</div>
+                            <button class="copy-btn" data-copy="Ctrl+K">Copiar</button>
+                        </div>
+                        <div class="shortcut-item">
+                            <div class="shortcut-keys">
+                                <kbd>Ctrl</kbd> + <kbd>E</kbd>
+                            </div>
+                            <div class="shortcut-desc">Código inline</div>
+                            <button class="copy-btn" data-copy="Ctrl+E">Copiar</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card" style="--card-color: #FFA5A5;">
+                    <h3>⚡ Creación Rápida</h3>
+                    <div class="shortcuts-grid">
+                        <div class="shortcut-item">
+                            <div class="shortcut-keys">
+                                <kbd>Ctrl</kbd> + <kbd>N</kbd>
+                            </div>
+                            <div class="shortcut-desc">Nueva página</div>
+                            <button class="copy-btn" data-copy="Ctrl+N">Copiar</button>
+                        </div>
+                        <div class="shortcut-item">
+                            <div class="shortcut-keys">
+                                <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>N</kbd>
+                            </div>
+                            <div class="shortcut-desc">Nueva ventana</div>
+                            <button class="copy-btn" data-copy="Ctrl+Shift+N">Copiar</button>
+                        </div>
+                        <div class="shortcut-item">
+                            <div class="shortcut-keys">
+                                <kbd>Ctrl</kbd> + <kbd>D</kbd>
+                            </div>
+                            <div class="shortcut-desc">Duplicar bloque</div>
+                            <button class="copy-btn" data-copy="Ctrl+D">Copiar</button>
+                        </div>
+                        <div class="shortcut-item">
+                            <div class="shortcut-keys">
+                                <kbd>Ctrl</kbd> + <kbd>/</kbd>
+                            </div>
+                            <div class="shortcut-desc">Editar bloques seleccionados</div>
+                            <button class="copy-btn" data-copy="Ctrl+/">Copiar</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card" style="--card-color: #FF6B6B;">
+                    <h3>📑 Formato de Bloques</h3>
+                    <div class="shortcuts-grid">
+                        <div class="shortcut-item">
+                            <div class="shortcut-keys">
+                                <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>0</kbd>
+                            </div>
+                            <div class="shortcut-desc">Texto normal</div>
+                            <button class="copy-btn" data-copy="Ctrl+Shift+0">Copiar</button>
+                        </div>
+                        <div class="shortcut-item">
+                            <div class="shortcut-keys">
+                                <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>1</kbd>
+                            </div>
+                            <div class="shortcut-desc">Heading 1</div>
+                            <button class="copy-btn" data-copy="Ctrl+Shift+1">Copiar</button>
+                        </div>
+                        <div class="shortcut-item">
+                            <div class="shortcut-keys">
+                                <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>2</kbd>
+                            </div>
+                            <div class="shortcut-desc">Heading 2</div>
+                            <button class="copy-btn" data-copy="Ctrl+Shift+2">Copiar</button>
+                        </div>
+                        <div class="shortcut-item">
+                            <div class="shortcut-keys">
+                                <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>3</kbd>
+                            </div>
+                            <div class="shortcut-desc">Heading 3</div>
+                            <button class="copy-btn" data-copy="Ctrl+Shift+3">Copiar</button>
+                        </div>
+                        <div class="shortcut-item">
+                            <div class="shortcut-keys">
+                                <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>4</kbd>
+                            </div>
+                            <div class="shortcut-desc">To-do list</div>
+                            <button class="copy-btn" data-copy="Ctrl+Shift+4">Copiar</button>
+                        </div>
+                        <div class="shortcut-item">
+                            <div class="shortcut-keys">
+                                <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>5</kbd>
+                            </div>
+                            <div class="shortcut-desc">Lista con bullets</div>
+                            <button class="copy-btn" data-copy="Ctrl+Shift+5">Copiar</button>
+                        </div>
+                        <div class="shortcut-item">
+                            <div class="shortcut-keys">
+                                <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>6</kbd>
+                            </div>
+                            <div class="shortcut-desc">Lista numerada</div>
+                            <button class="copy-btn" data-copy="Ctrl+Shift+6">Copiar</button>
+                        </div>
+                        <div class="shortcut-item">
+                            <div class="shortcut-keys">
+                                <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>7</kbd>
+                            </div>
+                            <div class="shortcut-desc">Toggle list</div>
+                            <button class="copy-btn" data-copy="Ctrl+Shift+7">Copiar</button>
+                        </div>
+                        <div class="shortcut-item">
+                            <div class="shortcut-keys">
+                                <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>8</kbd>
+                            </div>
+                            <div class="shortcut-desc">Code block</div>
+                            <button class="copy-btn" data-copy="Ctrl+Shift+8">Copiar</button>
+                        </div>
+                        <div class="shortcut-item">
+                            <div class="shortcut-keys">
+                                <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>9</kbd>
+                            </div>
+                            <div class="shortcut-desc">Nueva página</div>
+                            <button class="copy-btn" data-copy="Ctrl+Shift+9">Copiar</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card" style="--card-color: #FF8585;">
+                    <h3>🎯 Selección y Manipulación</h3>
+                    <div class="shortcuts-grid">
+                        <div class="shortcut-item">
+                            <div class="shortcut-keys">
+                                <kbd>Ctrl</kbd> + <kbd>A</kbd>
+                            </div>
+                            <div class="shortcut-desc">Seleccionar todo (doble para toda la página)</div>
+                            <button class="copy-btn" data-copy="Ctrl+A">Copiar</button>
+                        </div>
+                        <div class="shortcut-item">
+                            <div class="shortcut-keys">
+                                <kbd>Shift</kbd> + <kbd>Click</kbd>
+                            </div>
+                            <div class="shortcut-desc">Seleccionar múltiples bloques</div>
+                            <button class="copy-btn" data-copy="Shift+Click">Copiar</button>
+                        </div>
+                        <div class="shortcut-item">
+                            <div class="shortcut-keys">
+                                <kbd>Shift</kbd> + <kbd>↑/↓</kbd>
+                            </div>
+                            <div class="shortcut-desc">Expandir selección</div>
+                            <button class="copy-btn" data-copy="Shift+Arrow">Copiar</button>
+                        </div>
+                        <div class="shortcut-item">
+                            <div class="shortcut-keys">
+                                <kbd>Esc</kbd>
+                            </div>
+                            <div class="shortcut-desc">Limpiar selección</div>
+                            <button class="copy-btn" data-copy="Esc">Copiar</button>
+                        </div>
+                        <div class="shortcut-item">
+                            <div class="shortcut-keys">
+                                <kbd>Enter</kbd>
+                            </div>
+                            <div class="shortcut-desc">Editar bloque seleccionado</div>
+                            <button class="copy-btn" data-copy="Enter">Copiar</button>
+                        </div>
+                        <div class="shortcut-item">
+                            <div class="shortcut-keys">
+                                <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>←/→/↑/↓</kbd>
+                            </div>
+                            <div class="shortcut-desc">Mover bloque</div>
+                            <button class="copy-btn" data-copy="Ctrl+Shift+Arrow">Copiar</button>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Section 2: Comandos Slash -->
+            <section class="section" id="slash">
+                <h2 class="section-title">🔧 Comandos Slash (/)</h2>
+                <p class="section-intro">Escribe <kbd>/</kbd> en cualquier bloque para acceder a estos comandos rápidos.</p>
+                
+                <div class="card" style="--card-color: #4ECDC4;">
+                    <h3>📄 Básicos</h3>
+                    <div class="command-list">
+                        <div class="command-item">
+                            <code>/text</code> o <code>/plain</code>
+                            <span>→</span>
+                            <p>Bloque de texto</p>
+                        </div>
+                        <div class="command-item">
+                            <code>/page</code>
+                            <span>→</span>
+                            <p>Nueva página</p>
+                        </div>
+                        <div class="command-item">
+                            <code>/h1</code>, <code>/h2</code>, <code>/h3</code>
+                            <span>→</span>
+                            <p>Encabezados</p>
+                        </div>
+                        <div class="command-item">
+                            <code>/bullet</code>
+                            <span>→</span>
+                            <p>Lista con viñetas</p>
+                        </div>
+                        <div class="command-item">
+                            <code>/num</code>
+                            <span>→</span>
+                            <p>Lista numerada</p>
+                        </div>
+                        <div class="command-item">
+                            <code>/todo</code>
+                            <span>→</span>
+                            <p>Lista de tareas</p>
+                        </div>
+                        <div class="command-item">
+                            <code>/toggle</code>
+                            <span>→</span>
+                            <p>Lista desplegable</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card" style="--card-color: #6ED9D1;">
+                    <h3>🎬 Medios</h3>
+                    <div class="command-list">
+                        <div class="command-item">
+                            <code>/image</code>
+                            <span>→</span>
+                            <p>Insertar imagen</p>
+                        </div>
+                        <div class="command-item">
+                            <code>/video</code>
+                            <span>→</span>
+                            <p>Insertar video</p>
+                        </div>
+                        <div class="command-item">
+                            <code>/audio</code>
+                            <span>→</span>
+                            <p>Insertar audio</p>
+                        </div>
+                        <div class="command-item">
+                            <code>/file</code>
+                            <span>→</span>
+                            <p>Subir archivo</p>
+                        </div>
+                        <div class="command-item">
+                            <code>/web</code> o <code>/bookmark</code>
+                            <span>→</span>
+                            <p>Marcador web</p>
+                        </div>
+                        <div class="command-item">
+                            <code>/embed</code>
+                            <span>→</span>
+                            <p>Insertar embed</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card" style="--card-color: #8EE5DD;">
+                    <h3>🗄️ Bases de Datos</h3>
+                    <div class="command-list">
+                        <div class="command-item">
+                            <code>/table</code>
+                            <span>→</span>
+                            <p>Tabla inline</p>
+                        </div>
+                        <div class="command-item">
+                            <code>/board</code>
+                            <span>→</span>
+                            <p>Vista Kanban</p>
+                        </div>
+                        <div class="command-item">
+                            <code>/calendar</code>
+                            <span>→</span>
+                            <p>Vista calendario</p>
+                        </div>
+                        <div class="command-item">
+                            <code>/list</code>
+                            <span>→</span>
+                            <p>Vista de lista</p>
+                        </div>
+                        <div class="command-item">
+                            <code>/gallery</code>
+                            <span>→</span>
+                            <p>Vista galería</p>
+                        </div>
+                        <div class="command-item">
+                            <code>/timeline</code>
+                            <span>→</span>
+                            <p>Vista timeline</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card" style="--card-color: #4ECDC4;">
+                    <h3>🚀 Avanzados</h3>
+                    <div class="command-list">
+                        <div class="command-item">
+                            <code>/code</code>
+                            <span>→</span>
+                            <p>Bloque de código</p>
+                        </div>
+                        <div class="command-item">
+                            <code>/math</code> o <code>/latex</code>
+                            <span>→</span>
+                            <p>Ecuación matemática</p>
+                        </div>
+                        <div class="command-item">
+                            <code>/quote</code>
+                            <span>→</span>
+                            <p>Cita</p>
+                        </div>
+                        <div class="command-item">
+                            <code>/callout</code>
+                            <span>→</span>
+                            <p>Cuadro destacado</p>
+                        </div>
+                        <div class="command-item">
+                            <code>/divider</code> o <code>/---</code>
+                            <span>→</span>
+                            <p>Línea divisoria</p>
+                        </div>
+                        <div class="command-item">
+                            <code>/toc</code>
+                            <span>→</span>
+                            <p>Tabla de contenidos</p>
+                        </div>
+                        <div class="command-item">
+                            <code>/button</code> o <code>/template</code>
+                            <span>→</span>
+                            <p>Botón de plantilla</p>
+                        </div>
+                        <div class="command-item">
+                            <code>/bread</code>
+                            <span>→</span>
+                            <p>Breadcrumb</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card" style="--card-color: #6ED9D1;">
+                    <h3>🛠️ Comandos de Utilidad</h3>
+                    <div class="command-list">
+                        <div class="command-item">
+                            <code>/comment</code>
+                            <span>→</span>
+                            <p>Agregar comentario</p>
+                        </div>
+                        <div class="command-item">
+                            <code>/duplicate</code>
+                            <span>→</span>
+                            <p>Duplicar bloque</p>
+                        </div>
+                        <div class="command-item">
+                            <code>/moveto</code>
+                            <span>→</span>
+                            <p>Mover a otra página</p>
+                        </div>
+                        <div class="command-item">
+                            <code>/delete</code>
+                            <span>→</span>
+                            <p>Eliminar bloque</p>
+                        </div>
+                        <div class="command-item">
+                            <code>/color</code>
+                            <span>→</span>
+                            <p>Cambiar color de texto/fondo</p>
+                        </div>
+                        <div class="command-item">
+                            <code>/turn</code>
+                            <span>→</span>
+                            <p>Convertir bloque</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card" style="--card-color: #8EE5DD;">
+                    <h3>📅 Fechas</h3>
+                    <div class="command-list">
+                        <div class="command-item">
+                            <code>/today</code>
+                            <span>→</span>
+                            <p>Fecha de hoy</p>
+                        </div>
+                        <div class="command-item">
+                            <code>/now</code>
+                            <span>→</span>
+                            <p>Fecha y hora actual</p>
+                        </div>
+                        <div class="command-item">
+                            <code>/remind</code>
+                            <span>→</span>
+                            <p>Crear recordatorio</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Section 3: Markdown -->
+            <section class="section" id="markdown">
+                <h2 class="section-title">📝 Markdown Rápido</h2>
+                <p class="section-intro">Notion soporta sintaxis Markdown para formatear texto rápidamente mientras escribes.</p>
+                
+                <div class="card" style="--card-color: #FFE66D;">
+                    <h3>📋 Encabezados</h3>
+                    <div class="markdown-list">
+                        <div class="markdown-item">
+                            <code># + espacio</code>
+                            <span>→</span>
+                            <div class="markdown-result">Heading 1</div>
+                        </div>
+                        <div class="markdown-item">
+                            <code>## + espacio</code>
+                            <span>→</span>
+                            <div class="markdown-result">Heading 2</div>
+                        </div>
+                        <div class="markdown-item">
+                            <code>### + espacio</code>
+                            <span>→</span>
+                            <div class="markdown-result">Heading 3</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card" style="--card-color: #FFF08D;">
+                    <h3>✨ Formato</h3>
+                    <div class="markdown-list">
+                        <div class="markdown-item">
+                            <code>**texto**</code> o <code>__texto__</code>
+                            <span>→</span>
+                            <div class="markdown-result"><strong>Negrita</strong></div>
+                        </div>
+                        <div class="markdown-item">
+                            <code>*texto*</code> o <code>_texto_</code>
+                            <span>→</span>
+                            <div class="markdown-result"><em>Cursiva</em></div>
+                        </div>
+                        <div class="markdown-item">
+                            <code>~texto~</code>
+                            <span>→</span>
+                            <div class="markdown-result"><s>Tachado</s></div>
+                        </div>
+                        <div class="markdown-item">
+                            <code>`texto`</code>
+                            <span>→</span>
+                            <div class="markdown-result"><code>Código inline</code></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card" style="--card-color: #FFE66D;">
+                    <h3>📝 Listas</h3>
+                    <div class="markdown-list">
+                        <div class="markdown-item">
+                            <code>*, -, + luego espacio</code>
+                            <span>→</span>
+                            <div class="markdown-result">Lista con viñetas</div>
+                        </div>
+                        <div class="markdown-item">
+                            <code>1., a., i. luego espacio</code>
+                            <span>→</span>
+                            <div class="markdown-result">Lista numerada</div>
+                        </div>
+                        <div class="markdown-item">
+                            <code>[] + espacio</code>
+                            <span>→</span>
+                            <div class="markdown-result">To-do checkbox</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card" style="--card-color: #FFF08D;">
+                    <h3>🎯 Otros</h3>
+                    <div class="markdown-list">
+                        <div class="markdown-item">
+                            <code>&gt; + espacio</code>
+                            <span>→</span>
+                            <div class="markdown-result">Toggle block</div>
+                        </div>
+                        <div class="markdown-item">
+                            <code>" o | luego espacio</code>
+                            <span>→</span>
+                            <div class="markdown-result">Blockquote</div>
+                        </div>
+                        <div class="markdown-item">
+                            <code>```</code>
+                            <span>→</span>
+                            <div class="markdown-result">Code block</div>
+                        </div>
+                        <div class="markdown-item">
+                            <code>---</code>
+                            <span>→</span>
+                            <div class="markdown-result">Línea horizontal</div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Section 4: Propiedades DB -->
+            <section class="section" id="properties">
+                <h2 class="section-title">🗂️ Propiedades de Bases de Datos</h2>
+                <p class="section-intro">Tipos de propiedades disponibles para estructurar y organizar tus bases de datos.</p>
+                
+                <div class="card" style="--card-color: #95E1D3;">
+                    <h3>📊 Propiedades Básicas</h3>
+                    <div class="properties-grid">
+                        <div class="property-item">
+                            <div class="property-icon">📝</div>
+                            <div class="property-name">Text</div>
+                            <div class="property-desc">Texto libre</div>
+                        </div>
+                        <div class="property-item">
+                            <div class="property-icon">🔢</div>
+                            <div class="property-name">Number</div>
+                            <div class="property-desc">Números (decimal, moneda, %)</div>
+                        </div>
+                        <div class="property-item">
+                            <div class="property-icon">☑️</div>
+                            <div class="property-name">Checkbox</div>
+                            <div class="property-desc">Casilla de verificación</div>
+                        </div>
+                        <div class="property-item">
+                            <div class="property-icon">🎨</div>
+                            <div class="property-name">Select</div>
+                            <div class="property-desc">Etiqueta única (dropdown)</div>
+                        </div>
+                        <div class="property-item">
+                            <div class="property-icon">🏷️</div>
+                            <div class="property-name">Multi-select</div>
+                            <div class="property-desc">Múltiples etiquetas</div>
+                        </div>
+                        <div class="property-item">
+                            <div class="property-icon">📅</div>
+                            <div class="property-name">Date</div>
+                            <div class="property-desc">Fecha (con hora opcional)</div>
+                        </div>
+                        <div class="property-item">
+                            <div class="property-icon">👤</div>
+                            <div class="property-name">Person</div>
+                            <div class="property-desc">Asignar personas</div>
+                        </div>
+                        <div class="property-item">
+                            <div class="property-icon">📎</div>
+                            <div class="property-name">Files &amp; Media</div>
+                            <div class="property-desc">Adjuntar archivos/imágenes</div>
+                        </div>
+                        <div class="property-item">
+                            <div class="property-icon">🔗</div>
+                            <div class="property-name">URL</div>
+                            <div class="property-desc">Enlaces</div>
+                        </div>
+                        <div class="property-item">
+                            <div class="property-icon">📧</div>
+                            <div class="property-name">Email</div>
+                            <div class="property-desc">Direcciones de correo</div>
+                        </div>
+                        <div class="property-item">
+                            <div class="property-icon">📞</div>
+                            <div class="property-name">Phone</div>
+                            <div class="property-desc">Números de teléfono</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card" style="--card-color: #B5EDE0;">
+                    <h3>🚀 Propiedades Avanzadas</h3>
+                    <div class="properties-grid">
+                        <div class="property-item advanced">
+                            <div class="property-icon">🧮</div>
+                            <div class="property-name">Formula</div>
+                            <div class="property-desc">Cálculos personalizados</div>
+                        </div>
+                        <div class="property-item advanced">
+                            <div class="property-icon">🔗</div>
+                            <div class="property-name">Relation</div>
+                            <div class="property-desc">Conectar con otra base de datos</div>
+                        </div>
+                        <div class="property-item advanced">
+                            <div class="property-icon">📊</div>
+                            <div class="property-name">Rollup</div>
+                            <div class="property-desc">Agregar datos de relaciones</div>
+                        </div>
+                        <div class="property-item advanced">
+                            <div class="property-icon">⏰</div>
+                            <div class="property-name">Created time</div>
+                            <div class="property-desc">Fecha de creación (automático)</div>
+                        </div>
+                        <div class="property-item advanced">
+                            <div class="property-icon">✍️</div>
+                            <div class="property-name">Last edited time</div>
+                            <div class="property-desc">Última edición (automático)</div>
+                        </div>
+                        <div class="property-item advanced">
+                            <div class="property-icon">👥</div>
+                            <div class="property-name">Created by</div>
+                            <div class="property-desc">Quién creó (automático)</div>
+                        </div>
+                        <div class="property-item advanced">
+                            <div class="property-icon">🖊️</div>
+                            <div class="property-name">Last edited by</div>
+                            <div class="property-desc">Quién editó (automático)</div>
+                        </div>
+                        <div class="property-item advanced">
+                            <div class="property-icon">🆔</div>
+                            <div class="property-name">ID</div>
+                            <div class="property-desc">Identificador único</div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Section 5: Formato -->
+            <section class="section" id="format">
+                <h2 class="section-title">🎨 Formato de Texto</h2>
+                <p class="section-intro">Personaliza el aspecto de tu contenido con colores y estilos.</p>
+                
+                <div class="card" style="--card-color: #F38181;">
+                    <h3>🌈 Colores de Texto</h3>
+                    <div class="color-grid">
+                        <div class="color-item" style="--color: #E03E3E;">
+                            <div class="color-swatch"></div>
+                            <code>/red</code>
+                        </div>
+                        <div class="color-item" style="--color: #0B6E99;">
+                            <div class="color-swatch"></div>
+                            <code>/blue</code>
+                        </div>
+                        <div class="color-item" style="--color: #0F7B6C;">
+                            <div class="color-swatch"></div>
+                            <code>/green</code>
+                        </div>
+                        <div class="color-item" style="--color: #DFAB01;">
+                            <div class="color-swatch"></div>
+                            <code>/yellow</code>
+                        </div>
+                        <div class="color-item" style="--color: #6940A5;">
+                            <div class="color-swatch"></div>
+                            <code>/purple</code>
+                        </div>
+                        <div class="color-item" style="--color: #AD1A72;">
+                            <div class="color-swatch"></div>
+                            <code>/pink</code>
+                        </div>
+                        <div class="color-item" style="--color: #787774;">
+                            <div class="color-swatch"></div>
+                            <code>/gray</code>
+                        </div>
+                        <div class="color-item" style="--color: #64473A;">
+                            <div class="color-swatch"></div>
+                            <code>/brown</code>
+                        </div>
+                        <div class="color-item" style="--color: #D9730D;">
+                            <div class="color-swatch"></div>
+                            <code>/orange</code>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card" style="--card-color: #FFB1B1;">
+                    <h3>🎨 Colores de Fondo</h3>
+                    <p class="info-text">Agrega <strong>background</strong> después del color para aplicarlo como fondo:</p>
+                    <div class="background-examples">
+                        <div class="bg-example"><code>/red background</code></div>
+                        <div class="bg-example"><code>/blue background</code></div>
+                        <div class="bg-example"><code>/green background</code></div>
+                        <div class="bg-example"><code>/yellow background</code></div>
+                        <div class="bg-example"><code>/purple background</code></div>
+                    </div>
+                </div>
+
+                <div class="card" style="--card-color: #F38181;">
+                    <h3>✏️ Toolbar Flotante</h3>
+                    <p class="info-text">Cuando seleccionas texto, aparece un toolbar con estas opciones:</p>
+                    <div class="toolbar-features">
+                        <div class="toolbar-item">✅ Negrita, Cursiva, Subrayado, Tachado</div>
+                        <div class="toolbar-item">✅ Link, Código, Ecuación</div>
+                        <div class="toolbar-item">✅ Color de texto y fondo</div>
+                        <div class="toolbar-item">✅ Convertir a (heading, list, etc)</div>
+                        <div class="toolbar-item">✅ Comentar</div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Section 6: Bloques -->
+            <section class="section" id="blocks">
+                <h2 class="section-title">🏗️ Bloques Esenciales</h2>
+                <p class="section-intro">Tipos de bloques que puedes insertar para construir tus páginas.</p>
+                
+                <div class="card" style="--card-color: #AA96DA;">
+                    <h3>📄 Bloques de Contenido</h3>
+                    <div class="blocks-grid">
+                        <div class="block-item">
+                            <div class="block-icon">📄</div>
+                            <div class="block-name">Text</div>
+                            <div class="block-desc">Texto básico</div>
+                        </div>
+                        <div class="block-item">
+                            <div class="block-icon">📋</div>
+                            <div class="block-name">Page</div>
+                            <div class="block-desc">Subpágina</div>
+                        </div>
+                        <div class="block-item">
+                            <div class="block-icon">📌</div>
+                            <div class="block-name">To-do list</div>
+                            <div class="block-desc">Lista de tareas</div>
+                        </div>
+                        <div class="block-item">
+                            <div class="block-icon">🔸</div>
+                            <div class="block-name">Bullet list</div>
+                            <div class="block-desc">Lista con viñetas</div>
+                        </div>
+                        <div class="block-item">
+                            <div class="block-icon">🔢</div>
+                            <div class="block-name">Numbered list</div>
+                            <div class="block-desc">Lista numerada</div>
+                        </div>
+                        <div class="block-item">
+                            <div class="block-icon">▶️</div>
+                            <div class="block-name">Toggle list</div>
+                            <div class="block-desc">Lista desplegable</div>
+                        </div>
+                        <div class="block-item">
+                            <div class="block-icon">💬</div>
+                            <div class="block-name">Quote</div>
+                            <div class="block-desc">Cita destacada</div>
+                        </div>
+                        <div class="block-item">
+                            <div class="block-icon">💡</div>
+                            <div class="block-name">Callout</div>
+                            <div class="block-desc">Cuadro de alerta/nota</div>
+                        </div>
+                        <div class="block-item">
+                            <div class="block-icon">➖</div>
+                            <div class="block-name">Divider</div>
+                            <div class="block-desc">Línea divisoria</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card" style="--card-color: #C0AFEA;">
+                    <h3>🎬 Bloques Multimedia</h3>
+                    <div class="blocks-grid">
+                        <div class="block-item">
+                            <div class="block-icon">🖼️</div>
+                            <div class="block-name">Image</div>
+                            <div class="block-desc">Imagen</div>
+                        </div>
+                        <div class="block-item">
+                            <div class="block-icon">🎥</div>
+                            <div class="block-name">Video</div>
+                            <div class="block-desc">Video embed</div>
+                        </div>
+                        <div class="block-item">
+                            <div class="block-icon">🎵</div>
+                            <div class="block-name">Audio</div>
+                            <div class="block-desc">Audio</div>
+                        </div>
+                        <div class="block-item">
+                            <div class="block-icon">📎</div>
+                            <div class="block-name">File</div>
+                            <div class="block-desc">Archivo adjunto</div>
+                        </div>
+                        <div class="block-item">
+                            <div class="block-icon">🔖</div>
+                            <div class="block-name">Web bookmark</div>
+                            <div class="block-desc">Marcador web</div>
+                        </div>
+                        <div class="block-item">
+                            <div class="block-icon">💻</div>
+                            <div class="block-name">Code</div>
+                            <div class="block-desc">Bloque de código</div>
+                        </div>
+                        <div class="block-item">
+                            <div class="block-icon">🧮</div>
+                            <div class="block-name">Equation</div>
+                            <div class="block-desc">Ecuación LaTeX</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card" style="--card-color: #AA96DA;">
+                    <h3>🚀 Bloques Avanzados</h3>
+                    <div class="blocks-grid">
+                        <div class="block-item">
+                            <div class="block-icon">📊</div>
+                            <div class="block-name">Table of contents</div>
+                            <div class="block-desc">Índice automático</div>
+                        </div>
+                        <div class="block-item">
+                            <div class="block-icon">🔘</div>
+                            <div class="block-name">Button</div>
+                            <div class="block-desc">Botón de plantilla</div>
+                        </div>
+                        <div class="block-item">
+                            <div class="block-icon">🍞</div>
+                            <div class="block-name">Breadcrumb</div>
+                            <div class="block-desc">Migas de pan</div>
+                        </div>
+                        <div class="block-item">
+                            <div class="block-icon">🗂️</div>
+                            <div class="block-name">Linked database</div>
+                            <div class="block-desc">Base de datos vinculada</div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Section 7: Tips -->
+            <section class="section" id="tips">
+                <h2 class="section-title">💡 Tips &amp; Trucos</h2>
+                <p class="section-intro">Consejos prácticos para sacarle el máximo provecho a Notion.</p>
+                
+                <div class="card" style="--card-color: #FCBAD3;">
+                    <h3>⚡ Productividad</h3>
+                    <div class="tips-list">
+                        <div class="tip-item">
+                            <div class="tip-check">✅</div>
+                            <div class="tip-text">Usa <kbd>Ctrl</kbd>+<kbd>P</kbd> para navegar rápidamente entre páginas</div>
+                        </div>
+                        <div class="tip-item">
+                            <div class="tip-check">✅</div>
+                            <div class="tip-text">Crea templates en bases de datos para estandarizar tu flujo</div>
+                        </div>
+                        <div class="tip-item">
+                            <div class="tip-check">✅</div>
+                            <div class="tip-text">Usa linked databases en lugar de duplicar información</div>
+                        </div>
+                        <div class="tip-item">
+                            <div class="tip-check">✅</div>
+                            <div class="tip-text">Configura propiedades y vistas personalizadas</div>
+                        </div>
+                        <div class="tip-item">
+                            <div class="tip-check">✅</div>
+                            <div class="tip-text">Aprovecha los filtros y ordenamientos para encontrar info</div>
+                        </div>
+                        <div class="tip-item">
+                            <div class="tip-check">✅</div>
+                            <div class="tip-text">Crea dashboards con todo lo importante en una página</div>
+                        </div>
+                        <div class="tip-item">
+                            <div class="tip-check">✅</div>
+                            <div class="tip-text">Usa <code>/duplicate</code> para copiar bloques complejos rápidamente</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card" style="--card-color: #FDD0E5;">
+                    <h3>📁 Organización</h3>
+                    <div class="tips-list">
+                        <div class="tip-item">
+                            <div class="tip-check">📁</div>
+                            <div class="tip-text">Usa una estructura jerárquica clara</div>
+                        </div>
+                        <div class="tip-item">
+                            <div class="tip-check">📁</div>
+                            <div class="tip-text">Etiqueta todo con multi-select para buscar fácilmente</div>
+                        </div>
+                        <div class="tip-item">
+                            <div class="tip-check">📁</div>
+                            <div class="tip-text">Crea una página "Quick Capture" para ideas rápidas</div>
+                        </div>
+                        <div class="tip-item">
+                            <div class="tip-check">📁</div>
+                            <div class="tip-text">Archiva contenido viejo para mantener limpio el workspace</div>
+                        </div>
+                        <div class="tip-item">
+                            <div class="tip-check">📁</div>
+                            <div class="tip-text">Usa emojis e íconos para identificar páginas rápidamente</div>
+                        </div>
+                        <div class="tip-item">
+                            <div class="tip-check">📁</div>
+                            <div class="tip-text">Establece convenciones de nombres consistentes</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card" style="--card-color: #FCBAD3;">
+                    <h3>👥 Colaboración</h3>
+                    <div class="tips-list">
+                        <div class="tip-item">
+                            <div class="tip-check">👥</div>
+                            <div class="tip-text">Menciona personas con <code>@</code> + nombre</div>
+                        </div>
+                        <div class="tip-item">
+                            <div class="tip-check">👥</div>
+                            <div class="tip-text">Comenta bloques específicos con <code>/comment</code></div>
+                        </div>
+                        <div class="tip-item">
+                            <div class="tip-check">👥</div>
+                            <div class="tip-text">Asigna tareas con la propiedad "Person"</div>
+                        </div>
+                        <div class="tip-item">
+                            <div class="tip-check">👥</div>
+                            <div class="tip-text">Usa permisos para controlar quién edita qué</div>
+                        </div>
+                        <div class="tip-item">
+                            <div class="tip-check">👥</div>
+                            <div class="tip-text">Crea un wiki interno para documentación</div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Section 8: Workflows -->
+            <section class="section" id="workflows">
+                <h2 class="section-title">🚀 Workflows Avanzados</h2>
+                <p class="section-intro">Sistemas completos para gestionar proyectos, notas y hábitos en Notion.</p>
+                
+                <div class="card" style="--card-color: #A8E6CF;">
+                    <h3>📊 Gestión de Proyectos</h3>
+                    <div class="workflow-steps">
+                        <div class="workflow-step">
+                            <div class="step-number">1</div>
+                            <p>Crea una DB de proyectos con propiedades: <strong>Status</strong>, <strong>Owner</strong>, <strong>Deadline</strong>, <strong>Priority</strong></p>
+                        </div>
+                        <div class="workflow-step">
+                            <div class="step-number">2</div>
+                            <p>Vincula tareas a proyectos con <strong>Relations</strong></p>
+                        </div>
+                        <div class="workflow-step">
+                            <div class="step-number">3</div>
+                            <p>Usa vistas <strong>Board (Kanban)</strong> por status</p>
+                        </div>
+                        <div class="workflow-step">
+                            <div class="step-number">4</div>
+                            <p>Crea vista <strong>Calendar</strong> para deadlines</p>
+                        </div>
+                        <div class="workflow-step">
+                            <div class="step-number">5</div>
+                            <p>Usa <strong>Rollups</strong> para contar tareas completadas</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card" style="--card-color: #C8F2E0;">
+                    <h3>📚 Sistema de Notas</h3>
+                    <div class="workflow-steps">
+                        <div class="workflow-step">
+                            <div class="step-number">1</div>
+                            <p>DB central con todas las notas</p>
+                        </div>
+                        <div class="workflow-step">
+                            <div class="step-number">2</div>
+                            <p>Propiedades: <strong>Tags</strong>, <strong>Date</strong>, <strong>Source</strong>, <strong>Status</strong></p>
+                        </div>
+                        <div class="workflow-step">
+                            <div class="step-number">3</div>
+                            <p>Crea vistas filtradas por tag</p>
+                        </div>
+                        <div class="workflow-step">
+                            <div class="step-number">4</div>
+                            <p>Usa <strong>linked database</strong> en páginas de proyectos</p>
+                        </div>
+                        <div class="workflow-step">
+                            <div class="step-number">5</div>
+                            <p><strong>Template button</strong> para notas rápidas</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card" style="--card-color: #A8E6CF;">
+                    <h3>📈 Habit Tracker</h3>
+                    <div class="workflow-steps">
+                        <div class="workflow-step">
+                            <div class="step-number">1</div>
+                            <p>Tabla con días de la semana como columnas</p>
+                        </div>
+                        <div class="workflow-step">
+                            <div class="step-number">2</div>
+                            <p><strong>Checkboxes</strong> para marcar hábitos diarios</p>
+                        </div>
+                        <div class="workflow-step">
+                            <div class="step-number">3</div>
+                            <p><strong>Formula</strong> para calcular streaks</p>
+                        </div>
+                        <div class="workflow-step">
+                            <div class="step-number">4</div>
+                            <p>Vista semanal y mensual</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card" style="--card-color: #C8F2E0;">
+                    <h3>📅 Content Calendar</h3>
+                    <div class="workflow-steps">
+                        <div class="workflow-step">
+                            <div class="step-number">1</div>
+                            <p>DB de contenido con: <strong>Title</strong>, <strong>Status</strong>, <strong>Publish Date</strong>, <strong>Platform</strong></p>
+                        </div>
+                        <div class="workflow-step">
+                            <div class="step-number">2</div>
+                            <p>Vista <strong>Calendar</strong> para ver timeline</p>
+                        </div>
+                        <div class="workflow-step">
+                            <div class="step-number">3</div>
+                            <p><strong>Template</strong> para cada tipo de contenido</p>
+                        </div>
+                        <div class="workflow-step">
+                            <div class="step-number">4</div>
+                            <p><strong>Relations</strong> con DB de ideas</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p>Hecho con ❤️ para dominar Notion</p>
+        <p class="footer-small">© 2025 - La mejor chuleta de Notion que encontrarás</p>
+    </footer>
+
+    <style>
+:root {
+  --color-white: rgba(255, 255, 255, 1);
+  --color-black: rgba(0, 0, 0, 1);
+  --color-cream-50: rgba(252, 252, 249, 1);
+  --color-cream-100: rgba(255, 255, 253, 1);
+  --color-gray-200: rgba(245, 245, 245, 1);
+  --color-gray-300: rgba(167, 169, 169, 1);
+  --color-gray-400: rgba(119, 124, 124, 1);
+  --color-slate-500: rgba(98, 108, 113, 1);
+  --color-brown-600: rgba(94, 82, 64, 1);
+  --color-charcoal-700: rgba(31, 33, 33, 1);
+  --color-charcoal-800: rgba(38, 40, 40, 1);
+  --color-slate-900: rgba(19, 52, 59, 1);
+  --color-teal-300: rgba(50, 184, 198, 1);
+  --color-teal-400: rgba(45, 166, 178, 1);
+  --color-teal-500: rgba(33, 128, 141, 1);
+  --color-teal-600: rgba(29, 116, 128, 1);
+  --color-teal-700: rgba(26, 104, 115, 1);
+  --color-teal-800: rgba(41, 150, 161, 1);
+  --color-red-400: rgba(255, 84, 89, 1);
+  --color-red-500: rgba(192, 21, 47, 1);
+  --color-orange-400: rgba(230, 129, 97, 1);
+  --color-orange-500: rgba(168, 75, 47, 1);
+  --color-brown-600-rgb: 94, 82, 64;
+  --color-teal-500-rgb: 33, 128, 141;
+  --color-slate-900-rgb: 19, 52, 59;
+  --color-slate-500-rgb: 98, 108, 113;
+  --color-red-500-rgb: 192, 21, 47;
+  --color-red-400-rgb: 255, 84, 89;
+  --color-orange-500-rgb: 168, 75, 47;
+  --color-orange-400-rgb: 230, 129, 97;
+  --color-bg-1: rgba(59, 130, 246, 0.08);
+  --color-bg-2: rgba(245, 158, 11, 0.08);
+  --color-bg-3: rgba(34, 197, 94, 0.08);
+  --color-bg-4: rgba(239, 68, 68, 0.08);
+  --color-bg-5: rgba(147, 51, 234, 0.08);
+  --color-bg-6: rgba(249, 115, 22, 0.08);
+  --color-bg-7: rgba(236, 72, 153, 0.08);
+  --color-bg-8: rgba(6, 182, 212, 0.08);
+  --color-background: var(--color-cream-50);
+  --color-surface: var(--color-cream-100);
+  --color-text: var(--color-slate-900);
+  --color-text-secondary: var(--color-slate-500);
+  --color-primary: var(--color-teal-500);
+  --color-primary-hover: var(--color-teal-600);
+  --color-primary-active: var(--color-teal-700);
+  --color-secondary: rgba(var(--color-brown-600-rgb), 0.12);
+  --color-secondary-hover: rgba(var(--color-brown-600-rgb), 0.2);
+  --color-secondary-active: rgba(var(--color-brown-600-rgb), 0.25);
+  --color-border: rgba(var(--color-brown-600-rgb), 0.2);
+  --color-btn-primary-text: var(--color-cream-50);
+  --color-card-border: rgba(var(--color-brown-600-rgb), 0.12);
+  --color-card-border-inner: rgba(var(--color-brown-600-rgb), 0.12);
+  --color-error: var(--color-red-500);
+  --color-success: var(--color-teal-500);
+  --color-warning: var(--color-orange-500);
+  --color-info: var(--color-slate-500);
+  --color-focus-ring: rgba(var(--color-teal-500-rgb), 0.4);
+  --color-select-caret: rgba(var(--color-slate-900-rgb), 0.8);
+  --focus-ring: 0 0 0 3px var(--color-focus-ring);
+  --focus-outline: 2px solid var(--color-primary);
+  --status-bg-opacity: 0.15;
+  --status-border-opacity: 0.25;
+  --font-family-base: "FKGroteskNeue", "Geist", "Inter", -apple-system,
+    BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  --font-family-mono: "Berkeley Mono", ui-monospace, SFMono-Regular, Menlo,
+    Monaco, Consolas, monospace;
+  --font-size-xs: 11px;
+  --font-size-sm: 12px;
+  --font-size-base: 14px;
+  --font-size-md: 14px;
+  --font-size-lg: 16px;
+  --font-size-xl: 18px;
+  --font-size-2xl: 20px;
+  --font-size-3xl: 24px;
+  --font-size-4xl: 30px;
+  --font-weight-normal: 400;
+  --font-weight-medium: 500;
+  --font-weight-semibold: 550;
+  --font-weight-bold: 600;
+  --line-height-tight: 1.2;
+  --line-height-normal: 1.5;
+  --letter-spacing-tight: -0.01em;
+  --space-0: 0;
+  --space-1: 1px;
+  --space-2: 2px;
+  --space-4: 4px;
+  --space-6: 6px;
+  --space-8: 8px;
+  --space-10: 10px;
+  --space-12: 12px;
+  --space-16: 16px;
+  --space-20: 20px;
+  --space-24: 24px;
+  --space-32: 32px;
+  --radius-sm: 6px;
+  --radius-base: 8px;
+  --radius-md: 10px;
+  --radius-lg: 12px;
+  --radius-full: 9999px;
+  --shadow-xs: 0 1px 2px rgba(0, 0, 0, 0.02);
+  --shadow-sm: 0 1px 3px rgba(0, 0, 0, 0.04), 0 1px 2px rgba(0, 0, 0, 0.02);
+  --shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.04),
+    0 2px 4px -1px rgba(0, 0, 0, 0.02);
+  --shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.04),
+    0 4px 6px -2px rgba(0, 0, 0, 0.02);
+  --shadow-inset-sm: inset 0 1px 0 rgba(255, 255, 255, 0.15),
+    inset 0 -1px 0 rgba(0, 0, 0, 0.03);
+  --duration-fast: 150ms;
+  --duration-normal: 250ms;
+  --ease-standard: cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --color-gray-400-rgb: 119, 124, 124;
+    --color-teal-300-rgb: 50, 184, 198;
+    --color-gray-300-rgb: 167, 169, 169;
+    --color-gray-200-rgb: 245, 245, 245;
+    --color-bg-1: rgba(29, 78, 216, 0.15);
+    --color-bg-2: rgba(180, 83, 9, 0.15);
+    --color-bg-3: rgba(21, 128, 61, 0.15);
+    --color-bg-4: rgba(185, 28, 28, 0.15);
+    --color-bg-5: rgba(107, 33, 168, 0.15);
+    --color-bg-6: rgba(194, 65, 12, 0.15);
+    --color-bg-7: rgba(190, 24, 93, 0.15);
+    --color-bg-8: rgba(8, 145, 178, 0.15);
+    --color-background: var(--color-charcoal-700);
+    --color-surface: var(--color-charcoal-800);
+    --color-text: var(--color-gray-200);
+    --color-text-secondary: rgba(var(--color-gray-300-rgb), 0.7);
+    --color-primary: var(--color-teal-300);
+    --color-primary-hover: var(--color-teal-400);
+    --color-primary-active: var(--color-teal-800);
+    --color-secondary: rgba(var(--color-gray-400-rgb), 0.15);
+    --color-secondary-hover: rgba(var(--color-gray-400-rgb), 0.25);
+    --color-secondary-active: rgba(var(--color-gray-400-rgb), 0.3);
+    --color-border: rgba(var(--color-gray-400-rgb), 0.3);
+    --color-error: var(--color-red-400);
+    --color-success: var(--color-teal-300);
+    --color-warning: var(--color-orange-400);
+    --color-info: var(--color-gray-300);
+    --color-focus-ring: rgba(var(--color-teal-300-rgb), 0.4);
+    --color-btn-primary-text: var(--color-slate-900);
+    --color-card-border: rgba(var(--color-gray-400-rgb), 0.2);
+    --color-card-border-inner: rgba(var(--color-gray-400-rgb), 0.15);
+    --shadow-inset-sm: inset 0 1px 0 rgba(255, 255, 255, 0.1),
+      inset 0 -1px 0 rgba(0, 0, 0, 0.15);
+    --color-border-secondary: rgba(var(--color-gray-400-rgb), 0.2);
+    --color-select-caret: rgba(var(--color-gray-200-rgb), 0.8);
+  }
+}
+
+@font-face {
+  font-family: 'FKGroteskNeue';
+  src: url('https://r2cdn.perplexity.ai/fonts/FKGroteskNeue.woff2')
+    format('woff2');
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: var(--font-family-base);
+    background: var(--color-background);
+    color: var(--color-text);
+    line-height: var(--line-height-normal);
+    overflow-x: hidden;
+}
+
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 70px;
+    background: var(--color-surface);
+    border-bottom: 1px solid var(--color-border);
+    z-index: 1000;
+    box-shadow: var(--shadow-sm);
+}
+
+.header-content {
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 0 var(--space-24);
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: var(--space-24);
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: var(--space-12);
+}
+
+.logo-icon {
+    font-size: 32px;
+}
+
+.logo h1 {
+    font-size: var(--font-size-3xl);
+    font-weight: var(--font-weight-bold);
+    color: var(--color-text);
+    letter-spacing: var(--letter-spacing-tight);
+}
+
+.header-actions {
+    display: flex;
+    align-items: center;
+    gap: var(--space-16);
+}
+
+.search-container {
+    position: relative;
+}
+
+.search-input {
+    width: 300px;
+    padding: var(--space-8) var(--space-12);
+    padding-right: 40px;
+    border: 1px solid var(--color-border);
+    border-radius: var(--radius-full);
+    background: var(--color-background);
+    color: var(--color-text);
+    font-size: var(--font-size-sm);
+    font-family: var(--font-family-base);
+    transition: all var(--duration-fast);
+}
+
+.search-input:focus {
+    outline: none;
+    border-color: var(--color-primary);
+    box-shadow: var(--focus-ring);
+}
+
+.search-icon {
+    position: absolute;
+    right: 12px;
+    top: 50%;
+    transform: translateY(-50%);
+    pointer-events: none;
+}
+
+.mobile-menu-btn {
+    display: none;
+    flex-direction: column;
+    gap: 5px;
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: var(--space-8);
+}
+
+.mobile-menu-btn span {
+    width: 25px;
+    height: 3px;
+    background: var(--color-text);
+    border-radius: 2px;
+    transition: all 0.3s;
+}
+
+.main-container {
+    display: flex;
+    margin-top: 70px;
+    min-height: calc(100vh - 70px);
+}
+
+.sidebar {
+    width: 280px;
+    background: var(--color-surface);
+    border-right: 1px solid var(--color-border);
+    padding: var(--space-24) var(--space-12);
+    position: sticky;
+    top: 70px;
+    height: calc(100vh - 70px);
+    overflow-y: auto;
+    transition: transform 0.3s;
+}
+
+.sidebar::-webkit-scrollbar {
+    width: 6px;
+}
+
+.sidebar::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+.sidebar::-webkit-scrollbar-thumb {
+    background: var(--color-border);
+    border-radius: 3px;
+}
+
+.sidebar::-webkit-scrollbar-thumb:hover {
+    background: var(--color-primary);
+}
+
+.nav {
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-4);
+}
+
+.nav-item {
+    display: flex;
+    align-items: center;
+    gap: var(--space-12);
+    padding: var(--space-10) var(--space-12);
+    border-radius: var(--radius-base);
+    text-decoration: none;
+    color: var(--color-text-secondary);
+    transition: all var(--duration-fast);
+    border: 1px solid transparent;
+    position: relative;
+}
+
+.nav-item:hover {
+    background: var(--color-secondary);
+    color: var(--color-text);
+}
+
+.nav-item.active {
+    background: var(--color-bg-1);
+    color: var(--color-text);
+    font-weight: var(--font-weight-medium);
+}
+
+.nav-icon {
+    font-size: 20px;
+    flex-shrink: 0;
+}
+
+.nav-text {
+    font-size: var(--font-size-base);
+}
+
+.content {
+    flex: 1;
+    padding: var(--space-32);
+    max-width: 1000px;
+    margin: 0 auto;
+    width: 100%;
+}
+
+.section {
+    display: none;
+    animation: fadeIn 0.4s ease-in-out;
+}
+
+.section.active {
+    display: block;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(10px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.section-title {
+    font-size: var(--font-size-4xl);
+    font-weight: var(--font-weight-bold);
+    margin-bottom: var(--space-12);
+    color: var(--color-text);
+    letter-spacing: var(--letter-spacing-tight);
+}
+
+.section-intro {
+    font-size: var(--font-size-lg);
+    color: var(--color-text-secondary);
+    margin-bottom: var(--space-32);
+    line-height: 1.6;
+}
+
+.card {
+    background: var(--color-surface);
+    border: 1px solid var(--color-card-border);
+    border-radius: var(--radius-lg);
+    padding: var(--space-24);
+    margin-bottom: var(--space-24);
+    box-shadow: var(--shadow-sm);
+    transition: all var(--duration-normal);
+    position: relative;
+    overflow: hidden;
+}
+
+.card::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 3px;
+    background: var(--card-color, var(--color-primary));
+    opacity: 0.6;
+}
+
+.card:hover {
+    box-shadow: var(--shadow-md);
+    transform: translateY(-2px);
+}
+
+.card h3 {
+    font-size: var(--font-size-xl);
+    margin-bottom: var(--space-20);
+    color: var(--color-text);
+    font-weight: var(--font-weight-semibold);
+}
+
+.shortcuts-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: var(--space-16);
+}
+
+.shortcut-item {
+    background: var(--color-bg-1);
+    padding: var(--space-16);
+    border-radius: var(--radius-base);
+    border: 1px solid var(--color-card-border-inner);
+    transition: all var(--duration-fast);
+    position: relative;
+}
+
+.shortcut-item:hover {
+    border-color: var(--color-primary);
+    box-shadow: var(--shadow-sm);
+}
+
+.shortcut-keys {
+    margin-bottom: var(--space-8);
+    display: flex;
+    align-items: center;
+    gap: var(--space-4);
+    flex-wrap: wrap;
+    font-size: var(--font-size-sm);
+}
+
+.shortcut-desc {
+    color: var(--color-text-secondary);
+    font-size: var(--font-size-sm);
+    margin-bottom: var(--space-8);
+}
+
+kbd {
+    background: var(--color-surface);
+    border: 1px solid var(--color-border);
+    border-radius: 4px;
+    padding: 2px 8px;
+    font-family: var(--font-family-mono);
+    font-size: 11px;
+    color: var(--color-text);
+    box-shadow: var(--shadow-xs);
+    display: inline-block;
+    font-weight: var(--font-weight-medium);
+}
+
+.copy-btn {
+    margin-top: var(--space-4);
+    padding: 4px 12px;
+    background: var(--color-primary);
+    color: var(--color-btn-primary-text);
+    border: none;
+    border-radius: var(--radius-sm);
+    font-size: var(--font-size-xs);
+    cursor: pointer;
+    transition: all var(--duration-fast);
+    font-weight: var(--font-weight-medium);
+}
+
+.copy-btn:hover {
+    background: var(--color-primary-hover);
+    transform: scale(1.05);
+}
+
+.copy-btn:active {
+    transform: scale(0.95);
+}
+
+.command-list,
+.markdown-list {
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-12);
+}
+
+.command-item,
+.markdown-item {
+    display: flex;
+    align-items: center;
+    gap: var(--space-12);
+    padding: var(--space-12);
+    background: var(--color-bg-2);
+    border-radius: var(--radius-base);
+    border: 1px solid var(--color-card-border-inner);
+    flex-wrap: wrap;
+}
+
+.command-item code,
+.markdown-item code {
+    background: var(--color-surface);
+    padding: 4px 8px;
+    border-radius: var(--radius-sm);
+    font-family: var(--font-family-mono);
+    font-size: var(--font-size-sm);
+    color: var(--color-primary);
+    font-weight: var(--font-weight-medium);
+    border: 1px solid var(--color-border);
+}
+
+.command-item span,
+.markdown-item span {
+    color: var(--color-text-secondary);
+    font-weight: var(--font-weight-bold);
+}
+
+.command-item p,
+.markdown-item .markdown-result {
+    color: var(--color-text-secondary);
+    font-size: var(--font-size-sm);
+    margin: 0;
+}
+
+.properties-grid,
+.blocks-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: var(--space-12);
+}
+
+.property-item,
+.block-item {
+    background: var(--color-bg-3);
+    padding: var(--space-16);
+    border-radius: var(--radius-base);
+    border: 1px solid var(--color-card-border-inner);
+    transition: all var(--duration-fast);
+    text-align: center;
+}
+
+.property-item:hover,
+.block-item:hover {
+    transform: translateY(-3px);
+    box-shadow: var(--shadow-sm);
+}
+
+.property-item.advanced {
+    background: var(--color-bg-5);
+}
+
+.property-icon,
+.block-icon {
+    font-size: 28px;
+    margin-bottom: var(--space-8);
+}
+
+.property-name,
+.block-name {
+    font-weight: var(--font-weight-semibold);
+    color: var(--color-text);
+    margin-bottom: var(--space-4);
+    font-size: var(--font-size-sm);
+}
+
+.property-desc,
+.block-desc {
+    color: var(--color-text-secondary);
+    font-size: var(--font-size-xs);
+}
+
+.color-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+    gap: var(--space-16);
+}
+
+.color-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: var(--space-8);
+}
+
+.color-swatch {
+    width: 50px;
+    height: 50px;
+    border-radius: var(--radius-base);
+    background: var(--color);
+    border: 2px solid var(--color-border);
+    box-shadow: var(--shadow-sm);
+}
+
+.color-item code {
+    font-size: var(--font-size-xs);
+    background: var(--color-surface);
+    padding: 4px 8px;
+    border-radius: var(--radius-sm);
+    font-family: var(--font-family-mono);
+}
+
+.background-examples {
+    display: flex;
+    flex-wrap: wrap;
+    gap: var(--space-12);
+    margin-top: var(--space-16);
+}
+
+.bg-example {
+    padding: var(--space-8) var(--space-12);
+    background: var(--color-bg-4);
+    border-radius: var(--radius-base);
+    border: 1px solid var(--color-card-border-inner);
+}
+
+.info-text {
+    color: var(--color-text-secondary);
+    font-size: var(--font-size-sm);
+    margin-bottom: var(--space-12);
+}
+
+.toolbar-features {
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-8);
+    margin-top: var(--space-16);
+}
+
+.toolbar-item {
+    padding: var(--space-8) var(--space-12);
+    background: var(--color-bg-6);
+    border-radius: var(--radius-base);
+    font-size: var(--font-size-sm);
+    color: var(--color-text);
+}
+
+.tips-list {
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-12);
+}
+
+.tip-item {
+    display: flex;
+    align-items: flex-start;
+    gap: var(--space-12);
+    padding: var(--space-12);
+    background: var(--color-bg-7);
+    border-radius: var(--radius-base);
+    border: 1px solid var(--color-card-border-inner);
+}
+
+.tip-check {
+    font-size: 20px;
+    flex-shrink: 0;
+}
+
+.tip-text {
+    color: var(--color-text);
+    font-size: var(--font-size-sm);
+    line-height: 1.5;
+}
+
+.tip-text code {
+    background: var(--color-surface);
+    padding: 2px 6px;
+    border-radius: var(--radius-sm);
+    font-family: var(--font-family-mono);
+    font-size: var(--font-size-xs);
+    color: var(--color-primary);
+}
+
+.workflow-steps {
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-16);
+}
+
+.workflow-step {
+    display: flex;
+    align-items: flex-start;
+    gap: var(--space-16);
+    padding: var(--space-16);
+    background: var(--color-bg-8);
+    border-radius: var(--radius-base);
+    border: 1px solid var(--color-card-border-inner);
+}
+
+.step-number {
+    width: 32px;
+    height: 32px;
+    background: var(--color-primary);
+    color: var(--color-btn-primary-text);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: var(--font-weight-bold);
+    flex-shrink: 0;
+    font-size: var(--font-size-sm);
+}
+
+.workflow-step p {
+    color: var(--color-text);
+    font-size: var(--font-size-sm);
+    line-height: 1.5;
+    margin: 0;
+}
+
+.workflow-step strong {
+    color: var(--color-primary);
+}
+
+.footer {
+    background: var(--color-surface);
+    border-top: 1px solid var(--color-border);
+    padding: var(--space-24);
+    text-align: center;
+}
+
+.footer p {
+    color: var(--color-text);
+    margin: var(--space-4) 0;
+    font-size: var(--font-size-base);
+}
+
+.footer-small {
+    font-size: var(--font-size-sm);
+    color: var(--color-text-secondary);
+}
+
+@media (max-width: 1024px) {
+    .sidebar {
+        width: 240px;
+    }
+    
+    .content {
+        padding: var(--space-24);
+    }
+
+    .search-input {
+        width: 200px;
+    }
+}
+
+@media (max-width: 768px) {
+    .mobile-menu-btn {
+        display: flex;
+    }
+    
+    .sidebar {
+        position: fixed;
+        left: 0;
+        top: 70px;
+        transform: translateX(-100%);
+        z-index: 999;
+        width: 280px;
+        box-shadow: var(--shadow-lg);
+    }
+    
+    .sidebar.active {
+        transform: translateX(0);
+    }
+
+    .search-input {
+        width: 180px;
+    }
+    
+    .content {
+        padding: var(--space-20);
+    }
+    
+    .section-title {
+        font-size: var(--font-size-3xl);
+    }
+
+    .shortcuts-grid,
+    .properties-grid,
+    .blocks-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .logo h1 {
+        font-size: var(--font-size-2xl);
+    }
+}
+
+@media (max-width: 480px) {
+    .header-content {
+        padding: 0 var(--space-16);
+    }
+
+    .search-container {
+        display: none;
+    }
+    
+    .content {
+        padding: var(--space-16);
+    }
+    
+    .card {
+        padding: var(--space-16);
+    }
+    
+    .section-title {
+        font-size: var(--font-size-2xl);
+    }
+    
+    .logo h1 {
+        font-size: var(--font-size-xl);
+    }
+    
+    .logo-icon {
+        font-size: 24px;
+    }
+}
+    </style>
+
+    <script>
+const navItems = document.querySelectorAll('.nav-item');
+const sections = document.querySelectorAll('.section');
+const mobileMenuBtn = document.getElementById('mobileMenuBtn');
+const sidebar = document.getElementById('sidebar');
+const searchInput = document.getElementById('searchInput');
+
+navItems.forEach(item => {
+    item.addEventListener('click', (e) => {
+        e.preventDefault();
+        
+        const targetSection = item.getAttribute('data-section');
+        
+        navItems.forEach(nav => nav.classList.remove('active'));
+        item.classList.add('active');
+        
+        sections.forEach(section => section.classList.remove('active'));
+        document.getElementById(targetSection).classList.add('active');
+        
+        if (window.innerWidth <= 768) {
+            sidebar.classList.remove('active');
+        }
+        
+        window.scrollTo({ top: 0, behavior: 'smooth' });
+    });
+});
+
+if (mobileMenuBtn) {
+    mobileMenuBtn.addEventListener('click', () => {
+        sidebar.classList.toggle('active');
+    });
+}
+
+if (window.innerWidth <= 768) {
+    document.addEventListener('click', (e) => {
+        if (!sidebar.contains(e.target) && !mobileMenuBtn.contains(e.target)) {
+            sidebar.classList.remove('active');
+        }
+    });
+}
+
+window.addEventListener('resize', () => {
+    if (window.innerWidth > 768) {
+        sidebar.classList.remove('active');
+    }
+});
+
+const copyButtons = document.querySelectorAll('.copy-btn');
+copyButtons.forEach(btn => {
+    btn.addEventListener('click', () => {
+        const textToCopy = btn.getAttribute('data-copy');
+        
+        navigator.clipboard.writeText(textToCopy).then(() => {
+            const originalText = btn.textContent;
+            btn.textContent = '✓ Copiado';
+            btn.style.background = 'var(--color-success)';
+            
+            setTimeout(() => {
+                btn.textContent = originalText;
+                btn.style.background = 'var(--color-primary)';
+            }, 2000);
+        }).catch(err => {
+            console.error('Error al copiar:', err);
+        });
+    });
+});
+
+if (searchInput) {
+    let allContent = [];
+    
+    sections.forEach(section => {
+        const sectionId = section.id;
+        const sectionTitle = section.querySelector('.section-title').textContent;
+        
+        const shortcuts = section.querySelectorAll('.shortcut-item');
+        shortcuts.forEach(shortcut => {
+            const keys = shortcut.querySelector('.shortcut-keys').textContent.trim();
+            const desc = shortcut.querySelector('.shortcut-desc').textContent.trim();
+            allContent.push({
+                section: sectionId,
+                sectionTitle: sectionTitle,
+                text: keys + ' ' + desc,
+                element: shortcut
+            });
+        });
+        
+        const commands = section.querySelectorAll('.command-item');
+        commands.forEach(command => {
+            allContent.push({
+                section: sectionId,
+                sectionTitle: sectionTitle,
+                text: command.textContent.trim(),
+                element: command
+            });
+        });
+        
+        const markdown = section.querySelectorAll('.markdown-item');
+        markdown.forEach(md => {
+            allContent.push({
+                section: sectionId,
+                sectionTitle: sectionTitle,
+                text: md.textContent.trim(),
+                element: md
+            });
+        });
+    });
+    
+    searchInput.addEventListener('input', (e) => {
+        const query = e.target.value.toLowerCase().trim();
+        
+        if (query === '') {
+            allContent.forEach(item => {
+                if (item.element) {
+                    item.element.style.display = '';
+                }
+            });
+            return;
+        }
+        
+        allContent.forEach(item => {
+            if (item.element) {
+                if (item.text.toLowerCase().includes(query)) {
+                    item.element.style.display = '';
+                } else {
+                    item.element.style.display = 'none';
+                }
+            }
+        });
+    });
+}
+    </script>
+</body>
+</html>
